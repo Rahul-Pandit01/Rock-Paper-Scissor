@@ -1,0 +1,52 @@
+body{
+        background-color:rgb(24,24,24);
+        color:white;
+      }
+      .title{
+        font-size:30px; 
+        font-weight:bold;
+      }
+      .move-icon{
+        height:50px;
+      }
+       .move-button{
+        background-color: transparent;
+        border:3px solid white;
+        height:120px;
+        width:120px;
+        border-radius:60px;
+        margin-left:10px;
+        cursor: pointer;
+       }
+       .move-button:active{
+        opacity:0.5;
+       }
+       .result{
+        font-size:25px;
+        font-weight:bold;
+
+       }
+       .score{
+        margin-top:50px;
+       }
+       .reset-score-button,
+       .auto-play-button{
+        background-color: white;
+        border: none;
+        font-size:15px;
+        padding:8px 15px;
+        cursor: pointer;
+       }
+       .reset-score-button:active,
+       .auto-play-button:active{
+        opacity: 0.7;
+       }
+       
+       .reset-confirm-button{
+        cursor: pointer;
+       }
+       .cs-reset-confirmation{
+        font-family: arial;
+        font-size:15px;
+        margin-top: 30px;
+       }
